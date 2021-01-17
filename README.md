@@ -28,14 +28,14 @@ Perl script to remotely reboot Cisco SPA112 VoIP analogue telephone adapters via
 
     One example would be:
     ```
-    machine spa112.local
+    machine 192.168.15.1
     login admin
     password admin
     ```
 
     Another example would be:
     ```
-    machine spa112.local login admin password admin
+    machine 192.168.15.1 login admin password admin
     ```
 
     ---
